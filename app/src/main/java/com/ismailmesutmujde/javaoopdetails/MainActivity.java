@@ -10,5 +10,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Cat cat = new Cat("Cat1", "Yellow","Brown");
+        Cat cat2 = new Cat();
+        cat2.name = "Cat2";
+        System.out.println(cat2.name);
     }
 }
