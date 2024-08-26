@@ -1,7 +1,7 @@
 package com.ismailmesutmujde.javaoopdetails;
 
-public class Cat {
-    String  name;
+public class Cat implements Education {
+    String name;
     String eyeColor;
     String furColor;
 
@@ -23,5 +23,11 @@ public class Cat {
     }
     public void speakCat() {
         System.out.println("My name is : " + this.name + ", My type is : "+ typeName);
+    }
+
+    @Override
+    public boolean getEducation() {
+        System.out.println("Cats don't get education.");
+        return false;
     }
 }

@@ -20,6 +20,13 @@ public class MainActivity extends AppCompatActivity {
         System.out.println(cat.typeName);
         cat.speakCat();
         cat.speakCatStatic();
+
+        Dog dog = new Dog();
+        Dog dog2 = new Dog("Barley", "Yellow", "Yellow");
+        System.out.println(dog2.furColor);
+        Animal animal = new Animal();
+
+
     }
 
     public void test() {
