@@ -3,7 +3,7 @@ package com.ismailmesutmujde.javaoopdetails;
 public class Dog extends Animal implements Education {
 
     public Dog() {
-
+        super();
     }
 
     public Dog(String name, String eyeColor, String furColor) {

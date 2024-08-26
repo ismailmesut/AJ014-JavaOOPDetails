@@ -7,7 +7,7 @@ public class Animal {
     String furColor;
 
     public Animal() {
-        super();
+
     }
 
     public Animal(String name, String eyeColor, String furColor) {
